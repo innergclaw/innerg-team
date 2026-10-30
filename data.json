@@ -1,0 +1,148 @@
+{
+ "refreshed": "10/30/2026, 1:50 PM ET",
+ "open": [
+  {
+   "repo": "innerg-watchlist",
+   "n": 2,
+   "t": "docs: InnerG ID edge functions moved to a private repo",
+   "u": "https://github.com/innergclaw/innerg-watchlist/pull/2",
+   "d": "10/16/2026, 11:00 AM ET"
+  },
+  {
+   "repo": "srchildrenslounge",
+   "n": 1,
+   "t": "fix calender",
+   "u": "https://github.com/innergclaw/srchildrenslounge/pull/1",
+   "d": "09/23/2026, 3:05 PM ET"
+  }
+ ],
+ "merged": [
+  {
+   "repo": "innerg-watchlist",
+   "n": 8,
+   "t": "Fix market data schedule: UTC crons, drop timezone key",
+   "u": "https://github.com/innergclaw/innerg-watchlist/pull/8",
+   "d": "10/28/2026, 11:06 AM ET"
+  },
+  {
+   "repo": "ownyourweb-landing",
+   "n": 3,
+   "t": "add optional monthly plans (care, growth, SI agent ops)",
+   "u": "https://github.com/innergclaw/ownyourweb-landing/pull/3",
+   "d": "10/25/2026, 6:25 AM ET"
+  },
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 25,
+   "t": "InnerG ID: close new free/trial IDs, keep grandfathered access",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/25",
+   "d": "10/24/2026, 6:11 PM ET"
+  },
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 24,
+   "t": "InnerG ID: remove free-start wording, point free entry to InnerG Pulse",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/24",
+   "d": "10/24/2026, 6:02 PM ET"
+  },
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 23,
+   "t": "Sync watchlist-chart.mjs for the new Market Pulse line chart",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/23",
+   "d": "10/24/2026, 11:34 AM ET"
+  },
+  {
+   "repo": "innerg-watchlist",
+   "n": 7,
+   "t": "One line chart card with category and ticker pills; remove HYPE update",
+   "u": "https://github.com/innergclaw/innerg-watchlist/pull/7",
+   "d": "10/24/2026, 11:30 AM ET"
+  },
+  {
+   "repo": "innerg-watchlist",
+   "n": 6,
+   "t": "Publish Oct 24 Market Pulse entries (XLE, QQQ, SPY)",
+   "u": "https://github.com/innergclaw/innerg-watchlist/pull/6",
+   "d": "10/24/2026, 8:39 AM ET"
+  },
+  {
+   "repo": "innerg-watchlist",
+   "n": 5,
+   "t": "Render every market update entry",
+   "u": "https://github.com/innergclaw/innerg-watchlist/pull/5",
+   "d": "10/24/2026, 8:37 AM ET"
+  },
+  {
+   "repo": "shopnasgfx",
+   "n": 4,
+   "t": "Home: brand systems with SI behind them + /quick-designs/",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/4",
+   "d": "10/23/2026, 4:10 AM ET"
+  },
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 22,
+   "t": "Remove how can i help section; skill-graph services and required deposit agreement on intake form",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/22",
+   "d": "10/23/2026, 2:50 AM ET"
+  }
+ ],
+ "bots": [
+  {
+   "name": "MARROW",
+   "job": "Engineering, GitHub, clients, approvals queue, coordinating every bot",
+   "owns": "Private memory banks, nasirr-mayo-brand (Home Base), client sites, OwnYourWeb, InnerG Reads sites"
+  },
+  {
+   "name": "Content",
+   "job": "Draft content for the weekly rhythm",
+   "owns": "Drafts only"
+  },
+  {
+   "name": "InnerG Studio",
+   "job": "YouTube assets (thumbnails, titles, descriptions, scripts)",
+   "owns": "YouTube @innergintel (prep; Mr G publishes)"
+  },
+  {
+   "name": "Video Editor",
+   "job": "Edit video using the YouTube edit template",
+   "owns": "YouTube @innergintel (prep; Mr G publishes)"
+  },
+  {
+   "name": "Market Pulse",
+   "job": "Daily stocks and crypto news; sync innerg-watchlist and Home Base Market Pulse",
+   "owns": "innerg-watchlist, Home Base Market Pulse section"
+  },
+  {
+   "name": "Trading Lab",
+   "job": "Backtests in a private research repo",
+   "owns": "Private trading research"
+  },
+  {
+   "name": "Niche Lab",
+   "job": "Research and build niche businesses under OwnYourWeb Systems",
+   "owns": "Proposes to ownyourweb-landing, smm-service-tier-1"
+  },
+  {
+   "name": "The Final Frequency Editor",
+   "job": "Edit essays and articles (InnerG Reads, Legacy In Ink)",
+   "owns": "Words on innergreads, legacy-in-ink-final-frequency"
+  },
+  {
+   "name": "SOC Coach",
+   "job": "Mr G's personal SOC job training",
+   "owns": "Private training notes"
+  },
+  {
+   "name": "Health Check",
+   "job": "Nightly repo and site health; merge low-risk fixes only",
+   "owns": "All repos, nightly (read + low-risk fixes)"
+  },
+  {
+   "name": "dr eggbot",
+   "job": "Create new bots (role, rules, handoff wiring)",
+   "owns": "New bot specs via private PR"
+  }
+ ]
+}

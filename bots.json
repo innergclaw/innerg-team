@@ -1,0 +1,57 @@
+[
+  {
+    "name": "MARROW",
+    "job": "Engineering, GitHub, clients, approvals queue, coordinating every bot",
+    "owns": "Private memory banks, nasirr-mayo-brand (Home Base), client sites, OwnYourWeb, InnerG Reads sites"
+  },
+  {
+    "name": "Content",
+    "job": "Draft content for the weekly rhythm",
+    "owns": "Drafts only"
+  },
+  {
+    "name": "InnerG Studio",
+    "job": "YouTube assets (thumbnails, titles, descriptions, scripts)",
+    "owns": "YouTube @innergintel (prep; Mr G publishes)"
+  },
+  {
+    "name": "Video Editor",
+    "job": "Edit video using the YouTube edit template",
+    "owns": "YouTube @innergintel (prep; Mr G publishes)"
+  },
+  {
+    "name": "Market Pulse",
+    "job": "Daily stocks and crypto news; sync innerg-watchlist and Home Base Market Pulse",
+    "owns": "innerg-watchlist, Home Base Market Pulse section"
+  },
+  {
+    "name": "Trading Lab",
+    "job": "Backtests in a private research repo",
+    "owns": "Private trading research"
+  },
+  {
+    "name": "Niche Lab",
+    "job": "Research and build niche businesses under OwnYourWeb Systems",
+    "owns": "Proposes to ownyourweb-landing, smm-service-tier-1"
+  },
+  {
+    "name": "The Final Frequency Editor",
+    "job": "Edit essays and articles (InnerG Reads, Legacy In Ink)",
+    "owns": "Words on innergreads, legacy-in-ink-final-frequency"
+  },
+  {
+    "name": "SOC Coach",
+    "job": "Mr G's personal SOC job training",
+    "owns": "Private training notes"
+  },
+  {
+    "name": "Health Check",
+    "job": "Nightly repo and site health; merge low-risk fixes only",
+    "owns": "All repos, nightly (read + low-risk fixes)"
+  },
+  {
+    "name": "dr eggbot",
+    "job": "Create new bots (role, rules, handoff wiring)",
+    "owns": "New bot specs via private PR"
+  }
+]

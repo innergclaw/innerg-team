@@ -1,0 +1,3 @@
+project_id = "zkyhhoxcrjkhywblzehr"
+[functions.dashboard-dispatch]
+verify_jwt = false

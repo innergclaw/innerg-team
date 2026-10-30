@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InnerG Team</title><meta name="description" content="What the InnerG SI team is working on.">
+<style>
+:root{--bg:#0b0b10;--card:#14141c;--line:#262633;--text:#ececf2;--dim:#9a9aab;--gold:#f5c542}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,-apple-system,sans-serif}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 20px 60px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:18px}
+h1{margin:0;font-size:28px;letter-spacing:-.02em}.kick{color:var(--gold);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin:36px 0 12px}
+.dim{color:var(--dim);font-size:13px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}.name{font-weight:700;color:var(--gold)}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+input,select,textarea{width:100%;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:9px;margin-top:6px;font:inherit;font-size:14px}
+button{background:var(--gold);color:#111;border:0;border-radius:8px;padding:9px 14px;font-weight:700;cursor:pointer;margin-top:8px;font:inherit;font-weight:700}
+button.ghost{background:transparent;color:var(--gold);border:1px solid var(--line)}button:disabled{opacity:.5}
+.list{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.row{display:grid;grid-template-columns:180px 200px 1fr;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line)}.row:last-child{border:0}
+.row .d{color:var(--dim)}.ok{color:#6fdc8c}.err{color:#ff7b7b}summary{cursor:pointer;color:var(--gold);font-weight:600;margin-top:10px}
+.auth{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.auth input{width:240px;margin:0}.auth button{margin:0}
+@media(max-width:700px){.row{grid-template-columns:1fr;gap:2px}.wrap{padding:20px 16px 48px}h1{font-size:24px}.auth input{width:100%}}
+</style></head><body><div class="wrap">
+<header><div><div class="kick">InnerG Intelligence</div><h1>InnerG Team</h1>
+<div class="dim">What each SI teammate owns and what is moving across public InnerG work. <span id="ref"></span></div></div>
+<div class="auth" id="auth"></div></header>
+<h2>Team</h2><div class="grid" id="team"></div>
+<h2 id="openh">Open pull requests</h2><div class="list" id="open"></div>
+<h2>Recently shipped</h2><div class="list" id="merged"></div>
+<h2>Links</h2><div id="links" style="display:flex;gap:20px;flex-wrap:wrap"></div>
+<p class="dim" style="margin-top:40px">Public repos only. Job sending is limited to the owner account.</p>
+</div>
+<script type="module">
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+const SB = createClient("https://zkyhhoxcrjkhywblzehr.supabase.co", "sb_publishable_bdi3BexAKWDBaUIh40hJ_A_8CNVdnM_");
+const RELAY = "https://zkyhhoxcrjkhywblzehr.supabase.co/functions/v1/dashboard-dispatch";
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const link = (u, t) => `<a href="${esc(u)}" target="_blank" rel="noreferrer">${esc(t)}</a>`;
+const appr = r => r === "high" ? "Mr G" : r === "medium" ? "MARROW or Mr G" : "None needed, MARROW informed";
+$("links").innerHTML = [["Home Base","https://nasirr.innergintel.org/"],["SHOPNASGFX","https://shopnasgfx.com/"],["Skill graph","https://innergclaw.github.io/innerg-skill-graph/"],["Agent Academy","https://innergclaw.github.io/innerg-agent-academy/"],["Watchlist","https://innergclaw.github.io/innerg-watchlist/"]].map(([t,u]) => link(u,t)).join("");
+const rows = a => a.length ? a.map(p => `<div class="row"><span class="d">${esc(p.d)}</span><span>${esc(p.repo)} #${p.n}</span>${link(p.u, p.t)}</div>`).join("") : '<div class="row dim">None right now.</div>';
+let session = null;
+async function renderAuth() {
+  session = (await SB.auth.getSession()).data.session;
+  $("auth").innerHTML = session ? `<span class="dim">Signed in as ${esc(session.user.email)}</span><button class="ghost" id="out">Sign out</button>`
+    : `<input id="em" type="email" placeholder="Owner email" autocomplete="email"><button id="in">Sign in to send jobs</button><span id="ast" class="dim"></span>`;
+  if (session) $("out").onclick = async () => { await SB.auth.signOut(); renderAuth(); renderForms(); };
+  else $("in").onclick = async () => { const { error } = await SB.auth.signInWithOtp({ email: $("em").value.trim(), options: { shouldCreateUser: false, emailRedirectTo: location.origin + location.pathname } }); $("ast").textContent = error ? "Could not send link." : "Check your email for a sign-in link."; };
+}
+function renderForms() {
+  document.querySelectorAll(".send").forEach(el => { el.hidden = !session; });
+}
+SB.auth.onAuthStateChange(() => { renderAuth().then(renderForms); });
+const d = await (await fetch("data.json", { cache: "no-store" })).json();
+$("ref").textContent = `Updated ${d.refreshed}.`;
+$("openh").textContent = `Open pull requests (${d.open.length})`;
+$("open").innerHTML = rows(d.open); $("merged").innerHTML = rows(d.merged);
+$("team").innerHTML = d.bots.map(b => `<div class="card"><div class="name">${esc(b.name)}</div><div style="margin-top:6px">${esc(b.job)}</div><div class="dim" style="margin-top:6px">Owns: ${esc(b.owns)}</div>
+<details class="send" hidden><summary>Send a job</summary><form data-bot="${esc(b.name)}">
+<input name="goal" placeholder="Goal" maxlength="500" required><textarea name="inputs" rows="2" placeholder="Inputs (repo, file, URL)" maxlength="2000"></textarea>
+<input name="done_when" placeholder="Done when" maxlength="1000" required>
+<select name="risk"><option>low</option><option>medium</option><option>high</option></select>
+<div class="dim appr" style="margin-top:6px">Approver: ${appr("low")}</div><button>Send job</button> <span class="st dim"></span></form></details></div>`).join("");
+document.querySelectorAll("form").forEach(f => {
+  f.risk.onchange = () => f.querySelector(".appr").textContent = "Approver: " + appr(f.risk.value);
+  f.onsubmit = async e => { e.preventDefault(); const st = f.querySelector(".st"), btn = f.querySelector("button"); btn.disabled = true; st.className = "st dim"; st.textContent = "Sending...";
+    try { const s = (await SB.auth.getSession()).data.session;
+      const r = await fetch(RELAY, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${s?.access_token ?? ""}` }, body: JSON.stringify({ action: "send_job", bot: f.dataset.bot, goal: f.goal.value, inputs: f.inputs.value, done_when: f.done_when.value, risk: f.risk.value }) });
+      const j = await r.json(); if (j.ok) { st.className = "st ok"; st.textContent = "Sent"; f.reset(); } else { st.className = "st err"; st.textContent = "Failed: " + (j.error || "upstream " + j.upstream); } }
+    catch { st.className = "st err"; st.textContent = "Failed: network"; } btn.disabled = false; };
+});
+await renderAuth(); renderForms();
+</script></body></html>
