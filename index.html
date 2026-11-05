@@ -36,7 +36,7 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const link = (u, t) => `<a href="${esc(u)}" target="_blank" rel="noreferrer">${esc(t)}</a>`;
 const appr = r => r === "high" ? "Mr G" : r === "medium" ? "MARROW or Mr G" : "None needed, MARROW informed";
-$("links").innerHTML = [["Home Base","https://nasirr.innergintel.org/"],["SHOPNASGFX","https://shopnasgfx.com/"],["Skill graph","https://innergclaw.github.io/innerg-skill-graph/"],["Agent Academy","https://innergclaw.github.io/innerg-agent-academy/"],["Watchlist","https://innergclaw.github.io/innerg-watchlist/"]].map(([t,u]) => link(u,t)).join("");
+$("links").innerHTML = [["Home Base","https://nasirr.innergintel.study/"],["SHOPNASGFX","https://shopnasgfx.com/"],["Skill graph","https://innergclaw.github.io/innerg-skill-graph/"],["Agent Academy","https://innergclaw.github.io/innerg-agent-academy/"],["Watchlist","https://innergclaw.github.io/innerg-watchlist/"]].map(([t,u]) => link(u,t)).join("");
 const rows = a => a.length ? a.map(p => `<div class="row"><span class="d">${esc(p.d)}</span><span>${esc(p.repo)} #${p.n}</span>${link(p.u, p.t)}</div>`).join("") : '<div class="row dim">None right now.</div>';
 let session = null;
 async function renderAuth() {
