@@ -1,5 +1,5 @@
 {
- "refreshed": "11/09/2026, 11:58 AM ET",
+ "refreshed": "11/09/2026, 7:33 PM ET",
  "open": [
   {
    "repo": "innerg-watchlist",
@@ -17,6 +17,13 @@
   }
  ],
  "merged": [
+  {
+   "repo": "innerg-ai-program-signup",
+   "n": 1,
+   "t": "Add the first cohort waitlist page",
+   "u": "https://github.com/innergclaw/innerg-ai-program-signup/pull/1",
+   "d": "11/09/2026, 3:21 PM ET"
+  },
   {
    "repo": "innerg-pulse",
    "n": 1,
@@ -79,13 +86,6 @@
    "t": "Render every market update entry",
    "u": "https://github.com/innergclaw/innerg-watchlist/pull/5",
    "d": "10/24/2026, 8:37 AM ET"
-  },
-  {
-   "repo": "shopnasgfx",
-   "n": 4,
-   "t": "Home: brand systems with SI behind them + /quick-designs/",
-   "u": "https://github.com/innergclaw/shopnasgfx/pull/4",
-   "d": "10/23/2026, 4:10 AM ET"
   }
  ],
  "bots": [
