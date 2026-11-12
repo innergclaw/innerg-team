@@ -1,5 +1,5 @@
 {
- "refreshed": "11/11/2026, 10:29 PM ET",
+ "refreshed": "11/12/2026, 6:46 AM ET",
  "open": [
   {
    "repo": "innerg-watchlist",
@@ -17,6 +17,20 @@
   }
  ],
  "merged": [
+  {
+   "repo": "innerg-pulse",
+   "n": 7,
+   "t": "PULSE back to 3x daily on the site, host WISDOM card 004",
+   "u": "https://github.com/innergclaw/innerg-pulse/pull/7",
+   "d": "11/11/2026, 10:50 PM ET"
+  },
+  {
+   "repo": "innerg-pulse",
+   "n": 6,
+   "t": "Sign-up lists: PULSE daily after the close, new LABOR BRIEF on Mondays",
+   "u": "https://github.com/innergclaw/innerg-pulse/pull/6",
+   "d": "11/11/2026, 10:37 PM ET"
+  },
   {
    "repo": "innerg-pulse",
    "n": 5,
@@ -72,20 +86,6 @@
    "t": "add optional monthly plans (care, growth, SI agent ops)",
    "u": "https://github.com/innergclaw/ownyourweb-landing/pull/3",
    "d": "10/25/2026, 6:25 AM ET"
-  },
-  {
-   "repo": "nasirr-mayo-brand",
-   "n": 25,
-   "t": "InnerG ID: close new free/trial IDs, keep grandfathered access",
-   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/25",
-   "d": "10/24/2026, 6:11 PM ET"
-  },
-  {
-   "repo": "nasirr-mayo-brand",
-   "n": 24,
-   "t": "InnerG ID: remove free-start wording, point free entry to InnerG Pulse",
-   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/24",
-   "d": "10/24/2026, 6:02 PM ET"
   }
  ],
  "bots": [
