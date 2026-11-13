@@ -1,5 +1,5 @@
 {
- "refreshed": "11/13/2026, 10:24 AM ET",
+ "refreshed": "11/13/2026, 4:34 PM ET",
  "open": [
   {
    "repo": "innerg-watchlist",
@@ -17,6 +17,34 @@
   }
  ],
  "merged": [
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 29,
+   "t": "Set individual and small team pricing",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/29",
+   "d": "11/13/2026, 2:22 PM ET"
+  },
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 28,
+   "t": "Set workplace AI pricing",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/28",
+   "d": "11/13/2026, 1:09 PM ET"
+  },
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 27,
+   "t": "Position INNERG ID for workplace AI systems",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/27",
+   "d": "11/13/2026, 12:44 PM ET"
+  },
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 26,
+   "t": "Member flow: paid-only /membership/, hub-style sign-in + INNERG ID, seats",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/26",
+   "d": "11/13/2026, 12:06 PM ET"
+  },
   {
    "repo": "innerg-pulse",
    "n": 9,
@@ -58,34 +86,6 @@
    "t": "Restyle the labor brief in Style A v3 to match the sign-up page",
    "u": "https://github.com/innergclaw/innerg-pulse/pull/4",
    "d": "11/11/2026, 10:13 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 3,
-   "t": "Revamp sign-up page in Style A v3: sign-up first, less text, WISDOM carousel removed",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/3",
-   "d": "11/11/2026, 10:04 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 2,
-   "t": "Add the Nov 11 Content Studio Pulse issue page",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/2",
-   "d": "11/10/2026, 4:04 AM ET"
-  },
-  {
-   "repo": "innerg-ai-program-signup",
-   "n": 1,
-   "t": "Add the first cohort waitlist page",
-   "u": "https://github.com/innergclaw/innerg-ai-program-signup/pull/1",
-   "d": "11/09/2026, 3:21 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 1,
-   "t": "Add a swipeable WISDOM gallery with the third card",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/1",
-   "d": "11/05/2026, 11:37 AM ET"
   }
  ],
  "bots": [
