@@ -1,5 +1,5 @@
 {
- "refreshed": "11/12/2026, 2:18 PM ET",
+ "refreshed": "11/12/2026, 7:32 PM ET",
  "open": [
   {
    "repo": "innerg-watchlist",
@@ -17,6 +17,20 @@
   }
  ],
  "merged": [
+  {
+   "repo": "innerg-pulse",
+   "n": 9,
+   "t": "Add optimized 80x80 seal for PULSE emails",
+   "u": "https://github.com/innergclaw/innerg-pulse/pull/9",
+   "d": "11/12/2026, 4:56 PM ET"
+  },
+  {
+   "repo": "innerg-pulse",
+   "n": 8,
+   "t": "Host the Tesla + SpaceX special issue cover images",
+   "u": "https://github.com/innergclaw/innerg-pulse/pull/8",
+   "d": "11/12/2026, 4:19 PM ET"
+  },
   {
    "repo": "innerg-pulse",
    "n": 7,
@@ -72,20 +86,6 @@
    "t": "Add a swipeable WISDOM gallery with the third card",
    "u": "https://github.com/innergclaw/innerg-pulse/pull/1",
    "d": "11/05/2026, 11:37 AM ET"
-  },
-  {
-   "repo": "innerg-watchlist",
-   "n": 8,
-   "t": "Fix market data schedule: UTC crons, drop timezone key",
-   "u": "https://github.com/innergclaw/innerg-watchlist/pull/8",
-   "d": "10/28/2026, 11:06 AM ET"
-  },
-  {
-   "repo": "ownyourweb-landing",
-   "n": 3,
-   "t": "add optional monthly plans (care, growth, SI agent ops)",
-   "u": "https://github.com/innergclaw/ownyourweb-landing/pull/3",
-   "d": "10/25/2026, 6:25 AM ET"
   }
  ],
  "bots": [
