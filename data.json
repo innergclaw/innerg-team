@@ -1,5 +1,5 @@
 {
- "refreshed": "11/13/2026, 4:34 PM ET",
+ "refreshed": "11/13/2026, 8:43 PM ET",
  "open": [
   {
    "repo": "innerg-watchlist",
@@ -17,6 +17,13 @@
   }
  ],
  "merged": [
+  {
+   "repo": "nas-hub",
+   "n": 1,
+   "t": "Add TikTok Autopilot Playbook store page (/playbook)",
+   "u": "https://github.com/innergclaw/nas-hub/pull/1",
+   "d": "11/13/2026, 5:21 PM ET"
+  },
   {
    "repo": "nasirr-mayo-brand",
    "n": 29,
@@ -79,13 +86,6 @@
    "t": "Add an email sign-up card to the labor brief",
    "u": "https://github.com/innergclaw/innerg-pulse/pull/5",
    "d": "11/11/2026, 10:27 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 4,
-   "t": "Restyle the labor brief in Style A v3 to match the sign-up page",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/4",
-   "d": "11/11/2026, 10:13 PM ET"
   }
  ],
  "bots": [
