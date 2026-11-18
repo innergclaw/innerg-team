@@ -1,5 +1,5 @@
 {
- "refreshed": "11/17/2026, 2:55 PM ET",
+ "refreshed": "11/17/2026, 8:57 PM ET",
  "open": [
   {
    "repo": "innerg-watchlist",
@@ -17,6 +17,13 @@
   }
  ],
  "merged": [
+  {
+   "repo": "innerg-pulse",
+   "n": 10,
+   "t": "Labor brief refresh for the week to 17 Nov 2026",
+   "u": "https://github.com/innergclaw/innerg-pulse/pull/10",
+   "d": "11/17/2026, 6:52 PM ET"
+  },
   {
    "repo": "nas-hub",
    "n": 1,
@@ -79,13 +86,6 @@
    "t": "Sign-up lists: PULSE daily after the close, new LABOR BRIEF on Mondays",
    "u": "https://github.com/innergclaw/innerg-pulse/pull/6",
    "d": "11/11/2026, 10:37 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 5,
-   "t": "Add an email sign-up card to the labor brief",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/5",
-   "d": "11/11/2026, 10:27 PM ET"
   }
  ],
  "bots": [
