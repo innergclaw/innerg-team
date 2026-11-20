@@ -1,5 +1,5 @@
 {
- "refreshed": "11/19/2026, 11:50 PM ET",
+ "refreshed": "11/20/2026, 8:43 AM ET",
  "open": [
   {
    "repo": "innerg-watchlist",
@@ -17,6 +17,13 @@
   }
  ],
  "merged": [
+  {
+   "repo": "innergreads",
+   "n": 6,
+   "t": "Add read 011, taken already",
+   "u": "https://github.com/innergclaw/innergreads/pull/6",
+   "d": "11/20/2026, 6:02 AM ET"
+  },
   {
    "repo": "innerg-watchlist",
    "n": 10,
@@ -79,13 +86,6 @@
    "t": "Add optimized 80x80 seal for PULSE emails",
    "u": "https://github.com/innergclaw/innerg-pulse/pull/9",
    "d": "11/12/2026, 4:56 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 8,
-   "t": "Host the Tesla + SpaceX special issue cover images",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/8",
-   "d": "11/12/2026, 4:19 PM ET"
   }
  ],
  "bots": [
