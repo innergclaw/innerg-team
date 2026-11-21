@@ -1,5 +1,5 @@
 {
- "refreshed": "11/20/2026, 4:37 PM ET",
+ "refreshed": "11/20/2026, 9:48 PM ET",
  "open": [
   {
    "repo": "innerg-watchlist",
@@ -17,6 +17,13 @@
   }
  ],
  "merged": [
+  {
+   "repo": "innergreads",
+   "n": 7,
+   "t": "Retitle read 011 to Already Taken",
+   "u": "https://github.com/innergclaw/innergreads/pull/7",
+   "d": "11/20/2026, 8:33 PM ET"
+  },
   {
    "repo": "innergreads",
    "n": 6,
@@ -79,13 +86,6 @@
    "t": "Member flow: paid-only /membership/, hub-style sign-in + INNERG ID, seats",
    "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/26",
    "d": "11/13/2026, 12:06 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 9,
-   "t": "Add optimized 80x80 seal for PULSE emails",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/9",
-   "d": "11/12/2026, 4:56 PM ET"
   }
  ],
  "bots": [
