@@ -1,5 +1,5 @@
 {
- "refreshed": "11/25/2026, 8:48 AM ET",
+ "refreshed": "11/25/2026, 5:51 PM ET",
  "open": [
   {
    "repo": "two-keys",
@@ -24,6 +24,20 @@
   }
  ],
  "merged": [
+  {
+   "repo": "innerg-watchlist",
+   "n": 11,
+   "t": "Restyle the Market Pulse watchlist in Style A v3",
+   "u": "https://github.com/innergclaw/innerg-watchlist/pull/11",
+   "d": "11/25/2026, 4:14 PM ET"
+  },
+  {
+   "repo": "innerg-pulse",
+   "n": 11,
+   "t": "Put the whole Pulse site back on Style A v3",
+   "u": "https://github.com/innergclaw/innerg-pulse/pull/11",
+   "d": "11/25/2026, 12:45 PM ET"
+  },
   {
    "repo": "two-keys",
    "n": 1,
@@ -79,20 +93,6 @@
    "t": "Set individual and small team pricing",
    "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/29",
    "d": "11/13/2026, 2:22 PM ET"
-  },
-  {
-   "repo": "nasirr-mayo-brand",
-   "n": 28,
-   "t": "Set workplace AI pricing",
-   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/28",
-   "d": "11/13/2026, 1:09 PM ET"
-  },
-  {
-   "repo": "nasirr-mayo-brand",
-   "n": 27,
-   "t": "Position INNERG ID for workplace AI systems",
-   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/27",
-   "d": "11/13/2026, 12:44 PM ET"
   }
  ],
  "bots": [
