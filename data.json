@@ -1,6 +1,13 @@
 {
- "refreshed": "11/24/2026, 10:56 PM ET",
+ "refreshed": "11/25/2026, 8:48 AM ET",
  "open": [
+  {
+   "repo": "two-keys",
+   "n": 2,
+   "t": "Record the Two Keys design system",
+   "u": "https://github.com/innergclaw/two-keys/pull/2",
+   "d": "11/25/2026, 4:19 AM ET"
+  },
   {
    "repo": "innerg-watchlist",
    "n": 2,
@@ -17,6 +24,13 @@
   }
  ],
  "merged": [
+  {
+   "repo": "two-keys",
+   "n": 1,
+   "t": "Add the Two Keys studio page",
+   "u": "https://github.com/innergclaw/two-keys/pull/1",
+   "d": "11/25/2026, 4:10 AM ET"
+  },
   {
    "repo": "innergreads",
    "n": 7,
@@ -79,13 +93,6 @@
    "t": "Position INNERG ID for workplace AI systems",
    "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/27",
    "d": "11/13/2026, 12:44 PM ET"
-  },
-  {
-   "repo": "nasirr-mayo-brand",
-   "n": 26,
-   "t": "Member flow: paid-only /membership/, hub-style sign-in + INNERG ID, seats",
-   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/26",
-   "d": "11/13/2026, 12:06 PM ET"
   }
  ],
  "bots": [
