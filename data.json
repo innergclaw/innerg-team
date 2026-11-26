@@ -1,6 +1,83 @@
 {
- "refreshed": "11/26/2026, 9:20 AM ET",
+ "refreshed": "11/26/2026, 6:15 PM ET",
  "open": [
+  {
+   "repo": "shopnasgfx",
+   "n": 5,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/5",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "nasirr-mayo-brand",
+   "n": 30,
+   "t": "Add hub-nav: Back to the hub link and scroll-to-top arrow across the hub's own pages",
+   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/30",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "nas-hub",
+   "n": 2,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/nas-hub/pull/2",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "owner-stack",
+   "n": 1,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/owner-stack/pull/1",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "ownyourweb-demos",
+   "n": 1,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/ownyourweb-demos/pull/1",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "ownyourweb-landing",
+   "n": 4,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/ownyourweb-landing/pull/4",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "innerg-but-si-can",
+   "n": 2,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innerg-but-si-can/pull/2",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "innerg-ai-classes",
+   "n": 2,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innerg-ai-classes/pull/2",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "innergreads",
+   "n": 8,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innergreads/pull/8",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "innerg-pulse",
+   "n": 12,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innerg-pulse/pull/12",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
+  {
+   "repo": "innerg-watchlist",
+   "n": 12,
+   "t": "Add Back to the hub link (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innerg-watchlist/pull/12",
+   "d": "11/26/2026, 2:52 PM ET"
+  },
   {
    "repo": "two-keys",
    "n": 2,
@@ -24,6 +101,20 @@
   }
  ],
  "merged": [
+  {
+   "repo": "innerg-but-si-can",
+   "n": 1,
+   "t": "Replace X share with a Style A Instagram story image",
+   "u": "https://github.com/innergclaw/innerg-but-si-can/pull/1",
+   "d": "11/26/2026, 3:46 PM ET"
+  },
+  {
+   "repo": "innerg-ai-classes",
+   "n": 1,
+   "t": "Restyle the classes site to Style A v3 and say SI",
+   "u": "https://github.com/innergclaw/innerg-ai-classes/pull/1",
+   "d": "11/26/2026, 2:29 PM ET"
+  },
   {
    "repo": "innerg-watchlist",
    "n": 11,
@@ -79,20 +170,6 @@
    "t": "Labor brief refresh for the week to 17 Nov 2026",
    "u": "https://github.com/innergclaw/innerg-pulse/pull/10",
    "d": "11/17/2026, 6:52 PM ET"
-  },
-  {
-   "repo": "nas-hub",
-   "n": 1,
-   "t": "Add TikTok Autopilot Playbook store page (/playbook)",
-   "u": "https://github.com/innergclaw/nas-hub/pull/1",
-   "d": "11/13/2026, 5:21 PM ET"
-  },
-  {
-   "repo": "nasirr-mayo-brand",
-   "n": 29,
-   "t": "Set individual and small team pricing",
-   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/29",
-   "d": "11/13/2026, 2:22 PM ET"
   }
  ],
  "bots": [
