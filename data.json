@@ -1,6 +1,20 @@
 {
- "refreshed": "11/27/2026, 12:05 AM ET",
+ "refreshed": "11/27/2026, 10:07 AM ET",
  "open": [
+  {
+   "repo": "shopnasgfx",
+   "n": 6,
+   "t": "2027 Step 1 logo pricing: $450 / $1,200 / $2,800",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/6",
+   "d": "11/27/2026, 6:47 AM ET"
+  },
+  {
+   "repo": "shopnasgfx",
+   "n": 12,
+   "t": "Raise the public copy to a senior independent design voice",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/12",
+   "d": "11/27/2026, 9:15 AM ET"
+  },
   {
    "repo": "two-keys",
    "n": 3,
@@ -32,6 +46,48 @@
  ],
  "merged": [
   {
+   "repo": "shopnasgfx",
+   "n": 13,
+   "t": "Set Logo Starter to $125, Brand Starter Kit to $300, and Launch Package to $750",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/13",
+   "d": "11/27/2026, 9:59 AM ET"
+  },
+  {
+   "repo": "shopnasgfx",
+   "n": 11,
+   "t": "Fix the Start a brand project button and intake form so they fit",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/11",
+   "d": "11/27/2026, 8:27 AM ET"
+  },
+  {
+   "repo": "shopnasgfx",
+   "n": 10,
+   "t": "Fix the mobile How I work headline, add dropdowns, and text the calculator estimate",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/10",
+   "d": "11/27/2026, 7:34 AM ET"
+  },
+  {
+   "repo": "shopnasgfx",
+   "n": 9,
+   "t": "Set Logo $100 and Kit $250 paid in full, Launch $500 at 50%",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/9",
+   "d": "11/27/2026, 7:21 AM ET"
+  },
+  {
+   "repo": "shopnasgfx",
+   "n": 8,
+   "t": "Take SI brand workshops off the public site for now",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/8",
+   "d": "11/27/2026, 7:11 AM ET"
+  },
+  {
+   "repo": "shopnasgfx",
+   "n": 7,
+   "t": "Interim logo prices through year end: $100 / $200 / $300",
+   "u": "https://github.com/innergclaw/shopnasgfx/pull/7",
+   "d": "11/27/2026, 6:57 AM ET"
+  },
+  {
    "repo": "innerg-agent-academy",
    "n": 1,
    "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
@@ -58,48 +114,6 @@
    "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
    "u": "https://github.com/innergclaw/innerg-ai-program-signup/pull/2",
    "d": "11/26/2026, 10:50 PM ET"
-  },
-  {
-   "repo": "innerg-skill-graph",
-   "n": 2,
-   "t": "Add Back to the hub link (shared hub-nav)",
-   "u": "https://github.com/innergclaw/innerg-skill-graph/pull/2",
-   "d": "11/26/2026, 10:50 PM ET"
-  },
-  {
-   "repo": "innerg-team",
-   "n": 1,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/innerg-team/pull/1",
-   "d": "11/26/2026, 10:50 PM ET"
-  },
-  {
-   "repo": "nas-hub",
-   "n": 2,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/nas-hub/pull/2",
-   "d": "11/26/2026, 10:10 PM ET"
-  },
-  {
-   "repo": "owner-stack",
-   "n": 1,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/owner-stack/pull/1",
-   "d": "11/26/2026, 10:10 PM ET"
-  },
-  {
-   "repo": "ownyourweb-demos",
-   "n": 1,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/ownyourweb-demos/pull/1",
-   "d": "11/26/2026, 10:10 PM ET"
-  },
-  {
-   "repo": "ownyourweb-landing",
-   "n": 4,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/ownyourweb-landing/pull/4",
-   "d": "11/26/2026, 10:10 PM ET"
   }
  ],
  "bots": [
