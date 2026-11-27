@@ -1,82 +1,12 @@
 {
- "refreshed": "11/26/2026, 6:15 PM ET",
+ "refreshed": "11/27/2026, 12:05 AM ET",
  "open": [
   {
-   "repo": "shopnasgfx",
-   "n": 5,
+   "repo": "two-keys",
+   "n": 3,
    "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/shopnasgfx/pull/5",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "nasirr-mayo-brand",
-   "n": 30,
-   "t": "Add hub-nav: Back to the hub link and scroll-to-top arrow across the hub's own pages",
-   "u": "https://github.com/innergclaw/nasirr-mayo-brand/pull/30",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "nas-hub",
-   "n": 2,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/nas-hub/pull/2",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "owner-stack",
-   "n": 1,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/owner-stack/pull/1",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "ownyourweb-demos",
-   "n": 1,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/ownyourweb-demos/pull/1",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "ownyourweb-landing",
-   "n": 4,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/ownyourweb-landing/pull/4",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "innerg-but-si-can",
-   "n": 2,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/innerg-but-si-can/pull/2",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "innerg-ai-classes",
-   "n": 2,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/innerg-ai-classes/pull/2",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "innergreads",
-   "n": 8,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/innergreads/pull/8",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 12,
-   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/12",
-   "d": "11/26/2026, 2:52 PM ET"
-  },
-  {
-   "repo": "innerg-watchlist",
-   "n": 12,
-   "t": "Add Back to the hub link (shared hub-nav)",
-   "u": "https://github.com/innergclaw/innerg-watchlist/pull/12",
-   "d": "11/26/2026, 2:52 PM ET"
+   "u": "https://github.com/innergclaw/two-keys/pull/3",
+   "d": "11/26/2026, 10:49 PM ET"
   },
   {
    "repo": "two-keys",
@@ -102,74 +32,74 @@
  ],
  "merged": [
   {
-   "repo": "innerg-but-si-can",
+   "repo": "innerg-agent-academy",
    "n": 1,
-   "t": "Replace X share with a Style A Instagram story image",
-   "u": "https://github.com/innergclaw/innerg-but-si-can/pull/1",
-   "d": "11/26/2026, 3:46 PM ET"
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innerg-agent-academy/pull/1",
+   "d": "11/26/2026, 10:51 PM ET"
   },
   {
-   "repo": "innerg-ai-classes",
+   "repo": "ownyourweb-signup",
    "n": 1,
-   "t": "Restyle the classes site to Style A v3 and say SI",
-   "u": "https://github.com/innergclaw/innerg-ai-classes/pull/1",
-   "d": "11/26/2026, 2:29 PM ET"
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/ownyourweb-signup/pull/1",
+   "d": "11/26/2026, 10:50 PM ET"
   },
   {
-   "repo": "innerg-watchlist",
-   "n": 11,
-   "t": "Restyle the Market Pulse watchlist in Style A v3",
-   "u": "https://github.com/innergclaw/innerg-watchlist/pull/11",
-   "d": "11/25/2026, 4:14 PM ET"
-  },
-  {
-   "repo": "innerg-pulse",
-   "n": 11,
-   "t": "Put the whole Pulse site back on Style A v3",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/11",
-   "d": "11/25/2026, 12:45 PM ET"
-  },
-  {
-   "repo": "two-keys",
+   "repo": "ownyourweb",
    "n": 1,
-   "t": "Add the Two Keys studio page",
-   "u": "https://github.com/innergclaw/two-keys/pull/1",
-   "d": "11/25/2026, 4:10 AM ET"
+   "t": "Add Back to the hub link (shared hub-nav)",
+   "u": "https://github.com/innergclaw/ownyourweb/pull/1",
+   "d": "11/26/2026, 10:50 PM ET"
   },
   {
-   "repo": "innergreads",
-   "n": 7,
-   "t": "Retitle read 011 to Already Taken",
-   "u": "https://github.com/innergclaw/innergreads/pull/7",
-   "d": "11/20/2026, 8:33 PM ET"
+   "repo": "innerg-ai-program-signup",
+   "n": 2,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innerg-ai-program-signup/pull/2",
+   "d": "11/26/2026, 10:50 PM ET"
   },
   {
-   "repo": "innergreads",
-   "n": 6,
-   "t": "Add read 011, taken already",
-   "u": "https://github.com/innergclaw/innergreads/pull/6",
-   "d": "11/20/2026, 6:02 AM ET"
+   "repo": "innerg-skill-graph",
+   "n": 2,
+   "t": "Add Back to the hub link (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innerg-skill-graph/pull/2",
+   "d": "11/26/2026, 10:50 PM ET"
   },
   {
-   "repo": "innerg-watchlist",
-   "n": 10,
-   "t": "Update closing-report verify test for ET time gate",
-   "u": "https://github.com/innergclaw/innerg-watchlist/pull/10",
-   "d": "11/18/2026, 2:49 PM ET"
+   "repo": "innerg-team",
+   "n": 1,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/innerg-team/pull/1",
+   "d": "11/26/2026, 10:50 PM ET"
   },
   {
-   "repo": "innerg-watchlist",
-   "n": 9,
-   "t": "Harden pages deploy retry and close-report gating",
-   "u": "https://github.com/innergclaw/innerg-watchlist/pull/9",
-   "d": "11/18/2026, 2:47 PM ET"
+   "repo": "nas-hub",
+   "n": 2,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/nas-hub/pull/2",
+   "d": "11/26/2026, 10:10 PM ET"
   },
   {
-   "repo": "innerg-pulse",
-   "n": 10,
-   "t": "Labor brief refresh for the week to 17 Nov 2026",
-   "u": "https://github.com/innergclaw/innerg-pulse/pull/10",
-   "d": "11/17/2026, 6:52 PM ET"
+   "repo": "owner-stack",
+   "n": 1,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/owner-stack/pull/1",
+   "d": "11/26/2026, 10:10 PM ET"
+  },
+  {
+   "repo": "ownyourweb-demos",
+   "n": 1,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/ownyourweb-demos/pull/1",
+   "d": "11/26/2026, 10:10 PM ET"
+  },
+  {
+   "repo": "ownyourweb-landing",
+   "n": 4,
+   "t": "Add Back to the hub link and scroll-to-top arrow (shared hub-nav)",
+   "u": "https://github.com/innergclaw/ownyourweb-landing/pull/4",
+   "d": "11/26/2026, 10:10 PM ET"
   }
  ],
  "bots": [
